@@ -39,7 +39,7 @@ def health_check():
 @app.route("/")
 def index():
     """Base URL for our service"""
-    app.logger.info("Request for Home Page.")
+    app.logger.info("Request for Home Page Changed CI/CD.")
     return app.send_static_file("index.html")
 
 
